@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+body {
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    font-family: "Lato", sans-serif;
+    background: linear-gradient(#A79277, #D1BB9E);
+    overflow-y: hidden;
+}
+
+/* BOX 1 */
+
+.wrapper {
+    display: flex;
+    gap: 60px;
+}
+
+.box-wrapper {
+    width: 400px;
+    height: 500px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.text-wrap {
+    width: 400px;
+    height: 100px;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.header {
+    font-weight: 400;
+    font-size: 200%;
+}
+
+.input-wrap {
+    padding-left: 25px;
+    margin-top: 40px;
+}
+
+.small-title {
+    color: white;
+    font-weight: 300;
+    font-size: 80%;
+    margin-bottom: 10px;
+}
+
+.input {
+    border-radius: 10px;
+    width: 180px;
+    height: 30px;
+}
+
+.input-wrap2 {
+    padding-left: 25px;
+    margin-top: 30px;
+}
+
+.wrapper-button {
+    padding-left: 25px;
+    margin-top: 40px;
+}
+
+/* BOX 2 */
+.ALL-CONTENT {
+    overflow: scroll;
+}
+
+.box-wrapper {
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 25px;
+    background: black;
+    overflow: scroll;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.title {
+    margin-top: 25px;
+}
+
+.buttons {
+    display: flex;
+    margin-left: 100px;
+}
+
+.input-text {
+    padding: 10px;
+    float: left;
+    align-items: left;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    width: 70%;
+}
+
+.ellipsis {
+    text-align: left;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.delete {
+    background-color: #D20062;
+}
+
+.show {
+    background-color: #97E7E1;
+}
+
+.move {
+    margin-left: 300px;
+    margin-top: 70px;
+}
+
+#inputww {
+    font-family: monospace;
+}
+
+.slbutton-wrapper {
+    margin-top: 450px;
+    margin-left: 285px;
+    position: absolute;
+}
+
+.position-button{
+    margin-top: 50px;
+    margin-left: 900px;
+}
+
+.reverse-button{
+    background-color: #DC6B19;
+    border: 5px solid black;
+    color: black;
+    padding: 18px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 120%;
+}
+
+@media only screen and (max-width: 950px) {
+    .wrapper {
+        flex-direction: column; 
+        align-items: center; 
+}
+}
